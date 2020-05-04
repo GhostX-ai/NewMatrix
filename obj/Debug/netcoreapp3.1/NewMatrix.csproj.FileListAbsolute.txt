@@ -1,0 +1,13 @@
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.exe
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.deps.json
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.runtimeconfig.json
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.runtimeconfig.dev.json
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.dll
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\bin\Debug\netcoreapp3.1\NewMatrix.pdb
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.csprojAssemblyReference.cache
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.csproj.CoreCompileInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.AssemblyInfoInputs.cache
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.AssemblyInfo.cs
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.dll
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.pdb
+C:\Users\GhostX\Desktop\c#Projects\NewMatrix\obj\Debug\netcoreapp3.1\NewMatrix.genruntimeconfig.cache
