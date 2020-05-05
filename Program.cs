@@ -3,6 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace NewMatrix
 {
@@ -50,7 +51,10 @@ namespace NewMatrix
             while (true)
             {
                 Counter++;
-                ColumnUpdate(width, height, y);
+                Task.Run(() =>
+                {
+                    ColumnUpdate(width, height, y);
+                }).Wait();
                 if (Counter > (3 * FlowSpeed))
                     Counter = 0;
             }
