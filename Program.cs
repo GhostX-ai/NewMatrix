@@ -50,7 +50,7 @@ namespace NewMatrix
             Initialize(out width, out height, out y);
             while (true)
             {
-                endText = EndText().ToString(); 
+                endText = EndText().Result; 
                 Counter++;
                 Task.Run(() =>
                 {
