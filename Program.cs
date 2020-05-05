@@ -36,7 +36,7 @@ namespace NewMatrix
                     return (char)(RanPos.Next(32, 255));
             }
         }
-        static void Main()
+        static async Task Main()
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = baseColor;
@@ -50,6 +50,7 @@ namespace NewMatrix
             Initialize(out width, out height, out y);
             while (true)
             {
+                endText = EndText().ToString(); 
                 Counter++;
                 Task.Run(() =>
                 {
@@ -136,6 +137,29 @@ namespace NewMatrix
                     Console.Write(endText);
                     y[x] = YPositionFields(y[x] + 1, height);
                 }
+            }
+        }
+        public static async Task<string> EndText()
+        {
+            int x = RanPos.Next(4);
+            switch (x)
+            {
+                case 1:
+                    {
+                        return "MacBook Pro";
+                    }
+                case 2:
+                    {
+                        return "The big power";
+                    }
+                case 3:
+                    {
+                        return "There is a big power in MacBook Pro";
+                    }
+                default:
+                    {
+                        return "Present the new MacBook Pro 15 for Khurshed";
+                    }
             }
         }
     }
